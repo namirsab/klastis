@@ -1,0 +1,2 @@
+#Ignore packages, just got dependencies
+packages/**/*

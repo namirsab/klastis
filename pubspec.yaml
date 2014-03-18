@@ -1,0 +1,8 @@
+name: Klastis
+author: klastisteam
+description: "Physics game with Box2d"
+homepage: https://github.com/namirsab/klastis
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  box2d: ">=0.1.7 <0.2.0"
