@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html style="overflow: hidden">
+  <head>
+    <title>Demos</title>
+    <!-- This tag improves the experience on mobile browsers. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=0">
+
+    <!-- These tags improve web apps on ios. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style type="text/css">
+      body {
+        font-family: "Courier New", monospace;
+      }
+
+      #fps {
+        color: #f00;
+        left: 800px;
+        top: 35px;
+        position: absolute;
+        display: none;
+      }
+
+      #world-step {
+        color: #f00;
+        left: 660px;
+        top: 50px;
+        position: absolute;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <div id="fps">FPS: <span id="fps-counter"></span></div>
+    <div id="world-step">
+      world.step time: <span id="world-step-time"></span>
+    </div>
+    
+    <script src="packages/browser/dart.js"></script>
+    <script type="application/dart" src="drawStage.dart"> 
+    </script>
+  </body>
+</html>
+
+
