@@ -1,4 +1,4 @@
-
+import 'package:box2d/box2d_browser.dart';
 import 'dart:core';
 
 
@@ -8,6 +8,7 @@ class Stage{
   List<List<int>> stage;
   int rows;
   int columns;
+  Vector2 initialPos, finalPos;
   
   Stage(int rows, int columns) : this.stage = new List<List<int>>(rows){
     this.rows = rows;
@@ -18,6 +19,8 @@ class Stage{
         this.stage[i][j] = 0;
       }
     }
+    initialPos = new Vector2(0.0, 0.0);
+    finalPos = new Vector2(rows.toDouble(), columns.toDouble());
   }
   
   
@@ -31,9 +34,7 @@ class Stage{
       for(int k = 0; k < lines[i].length;++k){
         s.set(i, k,int.parse(lines[i][k]));
       }
-      
     }
-
     
     return s;
   }

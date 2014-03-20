@@ -91,7 +91,6 @@ abstract class Demo {
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     world.drawDebugData();
     frameCount++;
-
     window.requestAnimationFrame(step);
   }
 
