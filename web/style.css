@@ -1,0 +1,52 @@
+body {
+  background-color: #00B060;
+  margin:auto;
+  font-family: sans-serif;
+  
+}
+
+.content{
+}
+
+#title{
+  color:white;
+  text-align: center;
+  font-size:40px;
+}
+
+.header{
+  background-color: #00B060;
+  display:block;
+  height:60px;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+
+
+#canvas{
+  background-color: black;
+}
+
+
+
+#play{
+  width:130px;
+}
+
+#leftCannon{
+  width:130px;
+}
+
+#upCannon{
+  width:130px;
+}
+
+#stop{
+  width:130px;
+}
+
+
+
